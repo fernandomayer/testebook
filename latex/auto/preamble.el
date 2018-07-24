@@ -2,7 +2,7 @@
  "preamble"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("babel" "brazilian") ("fontenc" "T1")))
+                     '(("babel" "brazil") ("fontenc" "T1")))
    (TeX-run-style-hooks
     "babel"
     "fontenc"
