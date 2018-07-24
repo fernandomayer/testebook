@@ -8,7 +8,7 @@ bookdown::gitbook:
     toolbar:
       position: fixed
     edit : null
-    download: null
+    download: [pdf, epub, mobi]
     search: yes
     fontsettings:
       theme: white
@@ -19,3 +19,14 @@ bookdown::gitbook:
       twitter: yes
       google: yes
       all: ['facebook', 'google', 'twitter']
+bookdown::pdf_book:
+  includes:
+    in_header: latex/preamble.tex
+  keep_tex: yes
+  template: null
+  #pandoc_args: --top-level-division=chapter
+  toc_depth: 3
+  toc_unnumbered: no
+  #toc_appendix: yes
+  #quote_footer: ["\\VA{", "}{}"]
+bookdown::epub_book: default
