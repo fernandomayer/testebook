@@ -1,0 +1,12 @@
+---
+title: "Introdução à Estatística Computacional"
+author: "Fernando Mayer"
+date: "`r Sys.Date()`"
+#site: "bookdown::bookdown_site"
+delete_merged_file: true
+documentclass: book
+---
+
+# Prefácio {-}
+
+Alguma coisa aqui.
