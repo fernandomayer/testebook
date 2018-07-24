@@ -283,7 +283,6 @@ processo irá gerar dois arquivos:
 - `.Rhistory`: um arquivo texto que contém todos os comandos
   que foram digitados no console.
 
-
 <!-- ## Layout de código -->
 
 <!-- ## Formatos de arquivos -->
